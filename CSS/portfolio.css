@@ -1,0 +1,43 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --primary-white-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+/*site-nav*/
+
+.logo {
+  color: var(--title-text-color);
+}
+
+span {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact-info .link {
+  color: var(--primary-text-color);
+}
+
+.contact-info .link:hover,
+.contact-info .link:focus {
+  color: var(--accent-color);
+}
