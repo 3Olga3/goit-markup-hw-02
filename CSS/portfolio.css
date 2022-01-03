@@ -1,9 +1,17 @@
+/* цвет основного текста #757575;*/
+/* вторичный текст #212121*/
+/* белый фон #FFFFFF*/
+/* акцент #2196F3*/
+/* вторичный цвет фона #e5e5e5*/
+/* фон нижней части #F5F4FA*/
+/* фон втавок #2F303A*/
+/* */
+/* */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-bg-color: #e5e5e5;
-  --primary-white-color: #ffffff;
+  --primary-bg-color: #ffffff;
 }
 body {
   color: var(--primary-text-color);
@@ -40,4 +48,8 @@ ul {
 .contact-info .link:hover,
 .contact-info .link:focus {
   color: var(--accent-color);
+}
+/* main*/
+.title {
+  color: var(--title-text-color);
 }
