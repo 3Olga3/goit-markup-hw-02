@@ -16,11 +16,20 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
 }
 /*site-nav*/
 
 .logo {
   color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 span {
@@ -33,6 +42,12 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-family: inherit; /*унаследование шрифта на след странице (потфолио)*/
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -41,8 +56,10 @@ ul {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
 .contact-info .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .contact-info .link:hover,
@@ -54,18 +71,35 @@ ul {
 
 .hero-title {
   color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero,
+footer {
+  background-color: #2f303a;
 }
 
 /*features*/
 
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /*section title*/
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /*works*/
@@ -75,17 +109,43 @@ ul {
 .team-list .name {
   color: var(--title-text-color);
 }
+.team {
+  background-color: #f5f4fa;
+}
 
 /*button*/
 button {
-  font-size: 24px;
-  padding: 12px 24px;
-  display: inline-block;
-  border: 1px solid black;
-}
-/*главная кнопка (УБРАТЬ????)*/
-.button.primary {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
-  border-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/*footer*/
+.footer-section .list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact-info .links {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-info .links:hover,
+.contact-info .links:focus {
+  color: var(--accent-color);
+}
+.logo-footer {
+  color: var(--primary-bg-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
