@@ -58,6 +58,7 @@ ul {
 }
 .contact-info .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .contact-info .link:hover,
